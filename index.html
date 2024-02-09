@@ -1,0 +1,32 @@
+<html>
+    <head>
+    <title> Game Developer - David Morales</title>
+    <meta charset="utf-8">
+    <meta name="description" content="David Morales Game Programming Portfolio. Engineer in Videogames (yeah that's my actual bachelor)">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type ="text/javascript">
+        $(document).ready(function()
+        {
+            $("li a").click(function(){
+                $("li a").removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+    </script>
+    <body>
+        <ul id="nav" class="hidden-xs hidden-sm">
+            <li><a href="#me"></a></li>
+            <li><a class="active" href="#me">About me</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+        <div id="main">
+
+            </div>
+        </body>
+</head>
+</html>
